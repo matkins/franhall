@@ -1,0 +1,93 @@
+html,body{
+  height:100%;
+}
+body {
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  line-height:22px;
+  background: #F0F2EB;
+}
+.container-fluid{
+  background:white;
+  height:inherit;
+  max-width:800px;
+  margin:0px auto;
+  height:100%;
+  position:relative;
+}
+a{
+  color:#424254;
+}
+a:hover {
+  color:#CC2A41;
+  cursor:pointer;
+}
+#logo {
+  margin:20px 0px 10px;
+  height:80px;
+}
+.colour-strip{
+  height:0px;
+  border-top:8px #CC2A41 solid;
+  position:absolute;
+  left:0px;
+}
+.colour-strip-top{
+  top:0px;
+}
+.colour-strip-bottom{
+  bottom: 0px;
+}
+#header {
+  margin-bottom:20px;
+  padding-top:8px;
+}
+#tab-nav li{
+  text-align:right;
+  margin:5px 0px 15px 0px;
+}
+#tab-nav a{
+  text-decoration:none;
+  margin-right:20px;
+  color:#424254;
+  border-bottom:2px solid white;
+}
+#tab-nav a:hover{
+  color:#CC2A41;
+  border-bottom:2px solid #CC2A41;
+}
+#tab-nav .active a{
+  border-bottom:2px solid #424254;
+}
+#tab-nav .active a:hover{
+  color:#424254;
+}
+#sidebar {
+/*  background:url('../img/bg.png') right 0px repeat-y;*/
+  height:100%;
+}
+#main{
+}
+.center {
+  text-align:center;
+}
+img#profile {
+  max-width:170px;
+}
+
+@media (max-width: 767px) {
+  body{
+    background:white;
+  }
+  #header{
+    margin-bottom:0px;
+  }
+  #tab-nav{
+    float:left;
+  }
+  #tab-nav li{
+    float:left;
+    text-align:left;
+    margin:0px 10px 10px 0px;
+  }
+}

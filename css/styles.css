@@ -7,6 +7,9 @@ body {
   line-height:22px;
   background: #F0F2EB;
 }
+blockquote p {
+  font-size:15px;
+}
 .container-fluid{
   background:white;
   height:inherit;

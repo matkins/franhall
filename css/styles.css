@@ -118,7 +118,7 @@ img#profile {
 .overlay-action{
   position:absolute;
   right:5%;
-  bottom:4%;
+  bottom:5px;
   text-decoration:underline;
   font-size:12px;
   opacity:0.8;
@@ -169,10 +169,16 @@ body.modal-open {
     text-align:left;
     margin:0px 10px 10px 0px;
   }
+  #tab-nav a{
+    margin-right:10px;
+  }
   .thumbnails > .span3 {
     width: 23%;
     float: left;
     margin: 0 2% 5px 0;
+  }
+  .thumbnail a.overlay{
+    font-size:0.8em;
   }
   .colour-strip{
     width:120%;
@@ -182,8 +188,11 @@ body.modal-open {
 }
 @media (max-width: 540px) {
   .thumbnails > .span3 {
-    width: 46%;
+    width: 48%;
     float: left;
     margin: 0 4% 5px 0;
+  }
+  .thumbnails > .span3:nth-child(2n) {
+    margin-right:0px;
   }
 }

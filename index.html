@@ -8,6 +8,7 @@
     <link href='css/styles.css' rel='stylesheet' type='text/css' />
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
     <script src='js/bootstrap.js' type='text/javascript'></script>
+    <script src='js/main.js' type='text/javascript'></script>
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     <meta content='http://franhallwriting.com' property='og:url' />
     <meta content='Fran Hall | Writer Creator Communicator' property='og:title' />
@@ -40,6 +41,9 @@
             </li>
             <li>
               <a data-toggle='tab' href='#portfolio'>Portfolio</a>
+            </li>
+            <li>
+              <a data-toggle='tab' href='#contact'>Contact</a>
             </li>
           </ul>
           <div class='clearfix'></div>
@@ -83,45 +87,57 @@
                 <div class='thumbnails'>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/link-international-thumb.jpg' />
+                      <img src='img/portfolio/thumb/link-international-thumb.jpg' />
                       <a class='overlay' href='http://www.link-international.org' target='_blank'>
                         <div class='overlay-inner'>
                           <p class='title'>Link International site</p>
                           <p>Website content writing and management</p>
                         </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class='span3'>
-                    <div class='thumbnail'>
-                      <img src='img/portfolio/coffee-label-thumb.jpg' />
-                      <a class='overlay' href='/img/portfolio/coffee-label.jpg' target='_blank'>
-                        <div class='overlay-inner'>
-                          <p class='title'>Coffee label</p>
-                          <p>Product packaging copywriting</p>
+                        <div class='overlay-action'>
+                          Click to visit
                         </div>
                       </a>
                     </div>
                   </div>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/kings-recruit-thumb.jpg' />
+                      <img src='img/portfolio/thumb/coffee-label-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#coffee-label' role='button'>
+                        <div class='overlay-inner'>
+                          <p class='title'>Coffee label</p>
+                          <p>Product packaging copywriting</p>
+                        </div>
+                        <div class='overlay-action'>
+                          Click to view
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='span3'>
+                    <div class='thumbnail'>
+                      <img src='img/portfolio/thumb/kings-recruit-thumb.jpg' />
                       <a class='overlay' href='http://www.kingsrecruit.com' target='_blank'>
                         <div class='overlay-inner'>
                           <p class='title'>King's Recruit website</p>
                           <p>Recruitment website content</p>
                         </div>
+                        <div class='overlay-action'>
+                          Click to visit
+                        </div>
                       </a>
                     </div>
                   </div>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/taste-press-release-thumb.jpg' />
-                      <a class='overlay' target='_blank'>
+                      <img src='img/portfolio/thumb/taste-press-release-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#taste-press-release' role='button'>
                         <div class='overlay-inner'>
                           <p class='title'>TASTE press release</p>
                           <p>Charity press release</p>
                         </div>
+                        <div class='overlay-action'>
+                          Click to view
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -131,44 +147,56 @@
                 <div class='thumbnails'>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/michael-vaughan-thumb.jpg' />
-                      <a class='overlay' href='/img/portfolio/michael-vaughan.jpg' target='_blank'>
+                      <img src='img/portfolio/thumb/michael-vaughan-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#michael-vaughan' role='button'>
                         <div class='overlay-inner'>
                           <p class='title'>Michael Vaughan flyer</p>
                           <p>Campaign copywriting</p>
                         </div>
+                        <div class='overlay-action'>
+                          Click to view
+                        </div>
                       </a>
                     </div>
                   </div>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/taste-leaflet-thumb.jpg' />
-                      <a class='overlay' href='/img/portfolio/taste-leaflet.jpg' target='_blank'>
+                      <img src='img/portfolio/thumb/taste-leaflet-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#taste-leaflet' role='button'>
                         <div class='overlay-inner'>
                           <p class='title'>TASTE leaflet</p>
                           <p>Publication copywriting</p>
                         </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class='span3'>
-                    <div class='thumbnail'>
-                      <img src='img/portfolio/kings-rookie-flyer-thumb.jpg' />
-                      <a class='overlay' href='/img/portfolio/kings-rookie-flyer.jpg' target='_blank'>
-                        <div class='overlay-inner'>
-                          <p class='title'>King's Rookie flyer</p>
-                          <p>Advertising copy targeting older teenagers</p>
+                        <div class='overlay-action'>
+                          Click to view
                         </div>
                       </a>
                     </div>
                   </div>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/kings-teen-camp-thumb.jpg' />
-                      <a class='overlay' href='/img/portfolio/kings-teen-camp.jpg' target='_blank'>
+                      <img src='img/portfolio/thumb/kings-rookie-flyer-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#kings-rookie-flyer' role='button'>
+                        <div class='overlay-inner'>
+                          <p class='title'>King's Rookie flyer</p>
+                          <p>Advertising copy targeting older teenagers</p>
+                        </div>
+                        <div class='overlay-action'>
+                          Click to view
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='span3'>
+                    <div class='thumbnail'>
+                      <img src='img/portfolio/thumb/kings-teen-camp-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#kings-teen-camp' role='button'>
                         <div class='overlay-inner'>
                           <p class='title'>King's Teen Camp flyer</p>
                           <p>Advertising copy targeting younger teenagers</p>
+                        </div>
+                        <div class='overlay-action'>
+                          Click to view
                         </div>
                       </a>
                     </div>
@@ -179,33 +207,42 @@
                 <div class='thumbnails'>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='img/portfolio/gently-crafted-thumb.jpg' />
+                      <img src='img/portfolio/thumb/gently-crafted-thumb.jpg' />
                       <a class='overlay' href='http://www.gentlycrafted.co.uk/whoweare' target='_blank'>
                         <div class='overlay-inner'>
                           <p class='title'>Gently Crafted</p>
                           <p>Commercial website content</p>
                         </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class='span3'>
-                    <div class='thumbnail'>
-                      <img src='http://placehold.it/300x300' />
-                      <a class='overlay' href='http://throughbereavement.blogspot.co.uk' target='_blank'>
-                        <div class='overlay-inner'>
-                          <p class='title'>My blog</p>
-                          <p>Blog on bereavement</p>
+                        <div class='overlay-action'>
+                          Click to visit
                         </div>
                       </a>
                     </div>
                   </div>
                   <div class='span3'>
                     <div class='thumbnail'>
-                      <img src='http://placehold.it/300x300' />
-                      <a class='overlay' target='_blank'>
+                      <img src='img/portfolio/thumb/my-blog-thumb.jpg' />
+                      <a class='overlay' href='http://throughbereavement.blogspot.co.uk' target='_blank'>
+                        <div class='overlay-inner'>
+                          <p class='title'>My blog</p>
+                          <p>Blog on bereavement</p>
+                        </div>
+                        <div class='overlay-action'>
+                          Click to visit
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='span3'>
+                    <div class='thumbnail'>
+                      <img src='img/portfolio/thumb/last-in-hollywood-thumb.jpg' />
+                      <a class='overlay' data-toggle='modal' href='#last-in-hollywood' role='button'>
                         <div class='overlay-inner'>
                           <p class='title'>Article</p>
                           <p>Article for the web</p>
+                        </div>
+                        <div class='overlay-action'>
+                          Click to view
                         </div>
                       </a>
                     </div>
@@ -213,12 +250,136 @@
                 </div>
               </div>
             </div>
+            <div class='tab-pane' id='contact'>
+              <p>Contact info here</p>
+            </div>
           </div>
           <br />
           <div class='clearfix'></div>
         </div>
       </div>
       <div class='row-fluid colour-strip colour-strip-bottom'></div>
+    </div>
+    <div class='container'>
+      <div class='modal hide fade' id='coffee-label'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>Coffee label</h4>
+        </div>
+        <div class='modal-body modal-body-image'>
+          <img src='/img/portfolio/coffee-label.jpg' />
+        </div>
+      </div>
+      <div class='modal hide fade' id='taste-press-release'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>TASTE press release</h4>
+        </div>
+        <div class='modal-body modal-body-text'>
+          <p>
+            <strong>
+              Riots won’t stop Wrexham’s Andy
+            </strong>
+          </p>
+          <p>
+            A 23 year old from Gwersyllt, Wrexham, is swapping his day job as an air conditioning engineer, for 6 months drilling boreholes in Nigeria.
+          </p>
+          <p>
+            Andrew Swindley currently works for ACS Air Conditioning, based in Pentrebychan. On Wednesday 10 February he will travel to Jos, central Nigeria, to work with a team drilling 200 metre boreholes in villages that have no access to clean water.
+          </p>
+          <p>
+            Andrew will be volunteering for TASTE, a Christian charity that has provided 70 Nigerian villages with boreholes since 1999. One borehole can provide clean water for up to 2000 villagers.
+          </p>
+          <p>
+            “I was at a conference in the summer and met a man involved in this charity that helps Nigerian villages that have no clean water to drink.” Said Andrew. “They drill boreholes in areas where hand wells can’t be dug. I reckoned that my plumbing skills might come in handy.”
+          </p>
+          <p>
+            “My job in Jos will be to help the borehole drilling team, by drilling holes up to 200 metres deep, fitting water pumps and doing basic plumbing work. I am a trained plumber and I currently fit air conditioning so I have a very basic knowledge of mechanics and engineering.”
+          </p>
+          <p>
+            Andrew says the recent rioting in Jos does not worry him: “Jos is well known for its conflicts but, most of the time, I’ll be in a village in the back of beyond.  The main thing is that I’ll be able to help those kids who have to get up in the dark and walk 5k every morning, just to fetch water for their family.  We just turn on a tap but they have probably never even seen a tap.”
+          </p>
+          <p>
+            TASTE’s Chief Executive, Steve Horton, said: “Andrew's plumbing and air conditioning skills will come in very useful with the drilling team. At the moment they have to bring in an outside plumber whenever pipe runs or electric cabling are required. As part of the terms of his service in Nigeria as an expatriate professional, Andrew is expected to pass on his skills to the team he works with so that when he leaves they will be able to continue without him.”
+          </p>
+          <p>
+            -Ends-
+          </p>
+        </div>
+      </div>
+      <div class='modal hide fade' id='michael-vaughan'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>Michael Vaughan flyer</h4>
+        </div>
+        <div class='modal-body modal-body-image'>
+          <img src='/img/portfolio/michael-vaughan.jpg' />
+        </div>
+      </div>
+      <div class='modal hide fade' id='taste-leaflet'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>TASTE leaflet</h4>
+        </div>
+        <div class='modal-body modal-body-image'>
+          <img src='/img/portfolio/taste-leaflet.jpg' />
+        </div>
+      </div>
+      <div class='modal hide fade' id='kings-rookie-flyer'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>King's Rookie flyer</h4>
+        </div>
+        <div class='modal-body modal-body-image'>
+          <img src='/img/portfolio/kings-rookie-flyer.jpg' />
+        </div>
+      </div>
+      <div class='modal hide fade' id='kings-teen-camp'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>King's Teen Camp flyer</h4>
+        </div>
+        <div class='modal-body modal-body-image'>
+          <img src='/img/portfolio/kings-teen-camp.jpg' />
+        </div>
+      </div>
+      <div class='modal hide fade' id='last-in-hollywood'>
+        <div class='modal-header'>
+          <button aria-hidden='aria-hidden' class='close' data-dismiss='modal' type='button'>&times;</button>
+          <h4>Article</h4>
+        </div>
+        <div class='modal-body modal-body-text'>
+          <p>
+            <strong>
+              The Last In Hollywood
+            </strong>
+          </p>
+          <p>
+          Film production company Paramount have brought us some of the best films to watch on a girls&#8217; night in; <em>Failure to Launch</em>, <em>How to Lose a Guy in Ten Days</em>, not forgetting classics such as <em>Breakfast at Tiffany&#8217;s</em> and <em>Shirley Valentine</em>. 
+          </p>
+          <p>
+          The Paramount movie lot is now 100 years old and, sadly, it is the only remaining large movie company still actually based in Hollywood. Mark Horton, Vice President of Non-Theatrical Sales for Paramount, is one of the few people who still work there and, not surprisingly, he leads the kind of lifestyle most of us would envy.
+          </p>
+          <p>
+          Mark tells us, &ldquo;Brad Pitt was shooting here earlier in the year just outside my office, and yesterday we had a client lunch where we were sitting between Al Pacino on one side and Taylor Lautner from Twilight on the other!&rdquo;
+          </p>
+          <p>
+          It is Mark&#8217;s job to get edited movies to airlines, army bases and cruise liners, often before they are released on DVD. These edits must be fit for general viewing, ie no swearing or sex scenes, and sometimes need translating into 25 different languages. To do this, Mark works closely with directors and producers to ensure they are happy with the edit they are sending out. &ldquo;Making a movie can be a very long project for a director – sometimes 2-3 years, and just when the film is opening, often to huge acclaim, we are asking to cut their movie up! It can be extremely stressful.&rdquo;
+          </p>
+          <p>
+          With Brad Pitt shooting scenes outside his office, a pretty much constant temperature of 24 degrees celsius, and Santa Monica beach 20 minutes down the road from his LA home, what more could a person want? But Mark says it is not all it&#8217;s cracked up to be, &ldquo;One of the downsides of living in Hollywood is that it&#8217;s very inward looking – everyone lives, talks and breathes movies. We are also almost always in a drought.&rdquo;
+          </p>
+          <p>
+          Having said this, Mark can&#8217;t deny it is a great lifestyle, and one he likes to show off to UK friends and family when they visit. &ldquo;We always take them to eat at <em>Shutters</em>, a hotel which overlooks the Pacific Ocean. The tables look down onto the sand, sea and beach activity (rollerbladers, volleyball matches on the beach and sun worshippers).&rdquo;
+          </p>
+          <p>
+          &ldquo;Right now we&#8217;re working with Director Jason Reitman on editing <em>Up in the Air</em>, a new movie with George Clooney, which we are hoping will win some Oscars!&rdquo;
+          </p>
+          <p>
+          So next time you&#8217;re on a flight, just remember how much effort it has taken to get those movies there!
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -70,6 +70,7 @@ a:hover {
   height:100%;
 }
 #main{
+  min-height:500px;
 }
 .center {
   text-align:center;
@@ -109,11 +110,50 @@ img#profile {
 
 .overlay p{
   font-weight:300;
+  margin-bottom:5px;
 }
 .overlay p.title{
   font-weight:400;
 }
-
+.overlay-action{
+  position:absolute;
+  right:5%;
+  bottom:4%;
+  text-decoration:underline;
+  font-size:12px;
+  opacity:0.8;
+}
+.modal{
+  background: #F0F2EB;
+  border-color:#424254;
+}
+.modal-header{
+  background-color:#424254;
+  color:white;
+  padding:9px 12px;
+}
+.modal-header .close{
+  margin-top:-4px;
+  color:white;
+  opacity:0.9;
+  padding-top:0px;
+  filter: alpha(opacity=90);
+  text-shadow: 0 1px 0 #aaaaaa;
+}
+.modal-header h4{
+  margin:0px 0px 0px;
+  font-weight:400;
+  font-size:16px;
+}
+.modal-body{
+}
+.modal-body-image{
+  text-align:center;
+  padding:10px;
+}
+body.modal-open {
+  overflow: hidden;
+}
 @media (max-width: 767px) {
   body{
     background:white;
@@ -130,13 +170,20 @@ img#profile {
     margin:0px 10px 10px 0px;
   }
   .thumbnails > .span3 {
-    width: 46%;
+    width: 23%;
     float: left;
-    margin: 0 4% 5px 0;
-    
+    margin: 0 2% 5px 0;
   }
   .colour-strip{
     width:120%;
+    width:calc(100% + 40px);
     margin-left:-20px;
+  }
+}
+@media (max-width: 540px) {
+  .thumbnails > .span3 {
+    width: 46%;
+    float: left;
+    margin: 0 4% 5px 0;
   }
 }

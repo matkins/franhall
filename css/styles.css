@@ -8,16 +8,20 @@ body {
   background: #F0F2EB;
 }
 blockquote p {
-  font-size:15px;
+  font-size:16px;
+  margin-bottom:2px
 }
 blockquote {
   border-left-color: #424254;
-  background-color: #A6A5D3;
-  color:#fff;
-  padding: 10px 0px 10px 15px;
+  border-left-color: rgba(66, 66, 83, 0.9);
+  background-color: #BBB9EE;
+  background-color:rgba(186, 184, 237, 0.5);
+  color:#222;
+  padding: 10px 15px;
+  margin-top:5px;
 }
 blockquote small {
-  color: #424254;
+  color: #555;
 }
 .container-fluid{
   background:white;
@@ -34,14 +38,18 @@ a:hover {
   color:#CC2A41;
   cursor:pointer;
 }
+.spacer {
+  margin-bottom: 10px;
+}
 dl {
   margin-top:0px;
 }
 .dl-horizontal dt {
   text-align:left;
   padding-left:40px;
-  width:80px;
+  width:75px;
   margin-bottom:5px;
+  color:#424254;
 }
 .dl-horizontal dd {
   margin-left:80px;

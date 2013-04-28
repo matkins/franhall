@@ -2,13 +2,22 @@ html,body{
 /*  height:100%;*/
 }
 body {
-  font-family: 'Merriweather', serif;
-  font-size:15px;
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
   line-height:22px;
   background: #F0F2EB;
 }
 blockquote p {
   font-size:15px;
+}
+blockquote {
+  border-left-color: #424254;
+  background-color: #A6A5D3;
+  color:#fff;
+  padding: 10px 0px 10px 15px;
+}
+blockquote small {
+  color: #424254;
 }
 .container-fluid{
   background:white;
@@ -24,6 +33,19 @@ a{
 a:hover {
   color:#CC2A41;
   cursor:pointer;
+}
+dl {
+  margin-top:0px;
+}
+.dl-horizontal dt {
+  text-align:left;
+  padding-left:40px;
+  width:80px;
+  margin-bottom:5px;
+}
+.dl-horizontal dd {
+  margin-left:80px;
+  margin-bottom:5px;
 }
 #logo {
   margin:20px 0px 10px;
@@ -107,13 +129,8 @@ img#profile {
   height:90%;
   padding:5%;
 }
-
 .overlay p{
-  font-weight:300;
   margin-bottom:5px;
-}
-.overlay p.title{
-  font-weight:400;
 }
 .overlay-action{
   position:absolute;

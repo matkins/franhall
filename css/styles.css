@@ -210,6 +210,14 @@ body.modal-open {
     width:calc(100% + 40px);
     margin-left:-20px;
   }
+  .dl-horizontal dt {
+    width:auto;
+    padding-left:0px;
+  }
+  .dl-horizontal dd {
+    margin-left:0px;
+    margin-bottom:10px;
+  }
 }
 @media (max-width: 540px) {
   .thumbnails > .span3 {
